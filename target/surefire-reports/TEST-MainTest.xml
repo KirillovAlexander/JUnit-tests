@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="0.029" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="0.04" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\Unit-tests\target\test-classes;C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\Unit-tests\target\classes;C:\Users\Александр\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\Александр\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Александр\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\Александр\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Александр\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\Александр\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\6. Unit tests\task1. Unit-tests\target\test-classes;C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\6. Unit tests\task1. Unit-tests\target\classes;C:\Users\Александр\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\Александр\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Александр\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\Александр\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Александр\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\Александр\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\8523~1\AppData\Local\Temp\surefire2207475713894264146\surefirebooter8091379896940986802.jar C:\Users\Александр\AppData\Local\Temp\surefire2207475713894264146 2020-12-21T22-27-46_584-jvmRun1 surefire4505739755009264960tmp surefire_02341114292373331951tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\Unit-tests\target\test-classes;C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\Unit-tests\target\classes;C:\Users\Александр\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\Александр\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Александр\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\Александр\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Александр\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\Александр\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;"/>
+    <property name="sun.java.command" value="C:\Users\8523~1\AppData\Local\Temp\surefire9159296718586455931\surefirebooter2595530553237512851.jar C:\Users\Александр\AppData\Local\Temp\surefire9159296718586455931 2020-12-22T20-33-08_338-jvmRun1 surefire3290399891499381413tmp surefire_0490012015544303345tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\6. Unit tests\task1. Unit-tests\target\test-classes;C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\6. Unit tests\task1. Unit-tests\target\classes;C:\Users\Александр\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\Александр\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Александр\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\Александр\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Александр\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\Александр\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Александр"/>
     <property name="user.language" value="ru"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
-    <property name="basedir" value="C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\Unit-tests"/>
+    <property name="basedir" value="C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\6. Unit tests\task1. Unit-tests"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\8523~1\AppData\Local\Temp\surefire2207475713894264146\surefirebooter8091379896940986802.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\8523~1\AppData\Local\Temp\surefire9159296718586455931\surefirebooter2595530553237512851.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -48,7 +48,7 @@
     <property name="java.io.tmpdir" value="C:\Users\8523~1\AppData\Local\Temp\"/>
     <property name="idea.version" value="2020.2.1"/>
     <property name="java.version" value="1.8.0_261"/>
-    <property name="user.dir" value="C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\Unit-tests"/>
+    <property name="user.dir" value="C:\Users\Александр\IdeaProjects\Netology\Java Core\block 1\6. Unit tests\task1. Unit-tests"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,7 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="findMinorPersonsTest" classname="MainTest" time="0.019"/>
-  <testcase name="findSoldiersTest" classname="MainTest" time="0.001"/>
+  <testcase name="findMinorPersonsTest" classname="MainTest" time="0.031">
+    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at MainTest.findMinorPersonsTest(MainTest.java:70)
+]]></failure>
+  </testcase>
+  <testcase name="findSoldiersTest" classname="MainTest" time="0"/>
   <testcase name="potentiallyWorkablePersonsTest" classname="MainTest" time="0.002"/>
 </testsuite>
