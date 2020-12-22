@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -56,11 +57,16 @@ class MainTest {
         expected.add(Man20yoHigher);
         expected.add(Women30yoHigher);
 
-        //when:
-        Collection<Person> minorPersons = Main.findMinorPersons(persons);
+        boolean targetContains = persons.containsAll(expected);
 
-        //then:
-       assertEquals(expected, minorPersons);
+        Collection<Person> notExpected = new ArrayList<>();
+        expected.add(Man5yoFurther);
+
+        boolean targetShouldNotContains = persons.containsAll(notExpected);
+
+        assertEquals(targetContains, true);
+        assertEquals(targetShouldNotContains, false);
+
     }
 
     @Test
