@@ -57,16 +57,18 @@ class MainTest {
         expected.add(Man20yoHigher);
         expected.add(Women30yoHigher);
 
-        boolean targetContains = persons.containsAll(expected);
-
         Collection<Person> notExpected = new ArrayList<>();
         expected.add(Man5yoFurther);
 
-        boolean targetShouldNotContains = persons.containsAll(notExpected);
+        //when:
+        Collection<Person> minorPersons = Main.findMinorPersons(persons);
+
+        //then:
+        boolean targetContains = minorPersons.containsAll(expected);
+        boolean targetShouldNotContains = minorPersons.containsAll(notExpected);
 
         assertEquals(targetContains, true);
         assertEquals(targetShouldNotContains, false);
-
     }
 
     @Test
