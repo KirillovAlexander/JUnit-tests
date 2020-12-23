@@ -62,6 +62,7 @@ class MainTest {
 
         //then:
         assertEquals(expected.containsAll(minorPersons), true);
+        assertEquals(minorPersons.size(), 2);
     }
 
     @Test
@@ -80,6 +81,7 @@ class MainTest {
 
         //then:
         assertEquals(expected.containsAll(soldiers), true);
+        assertEquals(soldiers.size(), 1);
     }
 
     @Test
@@ -101,5 +103,6 @@ class MainTest {
 
         //then:
         assertEquals(expected.containsAll(minorPersons), true);
+        assertEquals(minorPersons.size(), 2);
     }
 }
